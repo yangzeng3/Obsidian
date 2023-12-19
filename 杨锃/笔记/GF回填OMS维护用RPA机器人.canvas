@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"8ce22d3ffec792af","type":"text","text":"使用uibot读取excel表内容并写入云效缺陷","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"7f48e26f3b065266","type":"text","text":"清空excel表","x":340,"y":-30,"width":250,"height":60},
+		{"id":"a93f3cd7dc0a59be","type":"text","text":"回填系统内添加报错写入对应excel表","x":-640,"y":-30,"width":250,"height":60},
+		{"id":"059309dddf4b3afa","x":-132,"y":260,"width":265,"height":60,"type":"file","file":"杨锃/笔记/云效登录有效期.md"}
+	],
+	"edges":[
+		{"id":"9b94e449929bd9d7","fromNode":"a93f3cd7dc0a59be","fromSide":"right","toNode":"8ce22d3ffec792af","toSide":"left"},
+		{"id":"7966bd957a79126b","fromNode":"8ce22d3ffec792af","fromSide":"right","toNode":"7f48e26f3b065266","toSide":"left"},
+		{"id":"5650c220c3cd68aa","fromNode":"059309dddf4b3afa","fromSide":"top","toNode":"8ce22d3ffec792af","toSide":"bottom"}
+	]
+}
